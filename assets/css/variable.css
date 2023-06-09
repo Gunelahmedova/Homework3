@@ -1,0 +1,9 @@
+:root {
+    /* Color */
+    --mainGrayLight: #FFFFFF;
+    --maintTextblue: #1090CB;
+    --maintTextblck: #000000;
+
+    /* Font */
+    --FontPoppins: "Poppins", sans-serif;
+}

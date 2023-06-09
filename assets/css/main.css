@@ -1,0 +1,93 @@
+body {
+    font-family: var(--FontPoppins);
+}
+/* Header */
+header {
+    width: auto;
+    height: 102px;
+    background-color: var(--mainGrayLight);
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 0.7px solid #C4C4C4
+}
+
+.logo {
+    flex-grow: 6;
+}
+
+h1 {
+    color: var(--maintTextblue);
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 44px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.navbar {
+    flex-grow: 4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+#leftnav {
+    flex-grow: 5;
+}
+
+.navbar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.navbar a {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.navbar li:first-child a {
+    position: relative;
+    color: var(--maintTextblue);
+}
+
+.navbar li:first-child a:before {
+    content: " ";
+    background-color: #08D3BB;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: -2px;
+    left: -8px;
+}
+
+#rightnav {
+    flex-grow: 4;
+    display: flex;
+    justify-content: end;
+}
+
+#rightnav a {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0em;
+    display: flex;
+    height: 33.88px;
+    width: 125px;
+    border-radius: 6px;
+    background-color: var(--maintTextblue);
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-left: 40px;
+    color: var(--mainGrayLight);
+}
+/* Main */
