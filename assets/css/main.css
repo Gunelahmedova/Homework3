@@ -1,6 +1,8 @@
 body {
     font-family: var(--FontPoppins);
+    color: var(maintTextblck);
 }
+
 /* Header */
 header {
     width: auto;
@@ -50,6 +52,7 @@ h1 {
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0em;
+    color: var(--maintTextblck);
 }
 
 .navbar li:first-child a {
@@ -90,4 +93,75 @@ h1 {
     margin-left: 40px;
     color: var(--mainGrayLight);
 }
+
 /* Main */
+/* Footer */
+.footer-top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 80px;
+    height: 534px;
+    background-color: var(--mainLighblue);
+    position: relative;
+
+}
+
+.footer-top::before {
+    content: url(../icon/star.svg);
+    position: absolute;
+    transform: rotate (-24.8deg);
+    top: -50px;
+    left: 167px;
+}
+
+.footer-top p {
+    position: relative;
+    max-width: 516px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+
+
+.footer-top p::after {
+    content: url(../icon/footericon.svg);
+    position: absolute;
+    top: -50px;
+    right: -50px;
+}
+
+.footer-top input {
+    height: 67px;
+    width: 532px;
+    padding: 20px;
+    border-radius: 10px;
+    border: none;
+    margin-right: 14px;
+}
+
+.footer-top input::placeholder {
+
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+
+}
+
+.footer-top button {
+    height: 67px;
+    width: 173px;
+    background-color: var(--maintTextblck);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFF4F4;
+    border-radius: 10px;
+}
