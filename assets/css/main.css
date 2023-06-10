@@ -215,6 +215,7 @@ h1 {
 #footer-about {
     flex-grow: 1;
     max-width: 372px;
+    min-width: 76px;
     /* padding: 20px; */
     display: flex;
     flex-direction: column;
