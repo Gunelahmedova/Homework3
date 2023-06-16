@@ -247,3 +247,154 @@ main {}
     text-align: left;
     color: #797979;
 }
+
+.services_about {
+    margin-top: 100px;
+    margin-bottom: 158px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.services_about img {
+
+    /* object-fit: cover;
+    width: 600px; */
+}
+
+
+.services_about h5 {
+    max-width: 516px;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 51px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 56px;
+
+}
+
+.services_about p {
+    max-width: 476px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 29px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #545454;
+    margin-bottom: 10px;
+}
+
+.services_about button {
+    background-color: var(--mainGrayLight);
+    width: 193px;
+    height: 51px;
+    border-radius: 10px;
+    border: 1px solid #1090CB;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 204.3%;
+    color: var(--maintTextblue);
+}
+
+.luck {
+    position: relative;
+    height: 388px;
+    width: 100%;
+    border-radius: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1090CB;
+    gap: 160px;
+    margin-bottom: 100px;
+
+}
+
+.luck ::before {
+    position: absolute;
+    content: url(../icon/luck.svg);
+    bottom: -50px;
+    left: 25%;
+}
+
+.luck ::after {
+    position: absolute;
+    content: url(../icon/bell.svg);
+    top: -20%;
+    right: 12%;
+}
+
+.luck div p:first-child {
+    color: var(--mainGrayLight);
+    font-size: 65px;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 0.01em;
+    text-align: center;
+}
+
+.luck div p:last-child {
+    color: var(--mainGrayLight);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: center;
+
+}
+
+.project_Parent {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center;
+    align-items: center; */
+    gap: 63px;
+    margin-bottom: 100px;
+}
+
+.project_tittle {
+    margin-left: 70px; width: 100%;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 64px;
+    letter-spacing: 0.01em;
+    text-align:left;
+
+}
+
+.projects {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+}
+
+.project_item img {
+    margin-bottom: 40px;
+}
+
+.project_item p:nth-child(2) {
+    width: 333px;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: 0.01em;
+    text-align: left;
+
+    margin-bottom: 20px;
+
+}
+
+.project_item p:last-child {
+    width: 333px;
+    height: 144.07px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 34px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #424242;
+
+}
