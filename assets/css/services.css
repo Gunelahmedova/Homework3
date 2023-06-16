@@ -1,0 +1,249 @@
+.navbar li:first-child a {
+    color: var(--maintTextblck);
+}
+
+.navbar li:first-child a:before {
+    content: none;
+    background-color: var(--mainGrayLight);
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: -2px;
+    left: -8px;
+}
+
+.navbar li:nth-child(3) a {
+    position: relative;
+    color: var(--maintTextblue);
+}
+
+.navbar li:nth-child(3) a:before {
+    content: " ";
+    background-color: #08D3BB;
+    width: 8px;
+    height: 8px;
+    border-radius: 4px;
+    position: absolute;
+    top: -2px;
+    left: -8px;
+}
+
+main {}
+
+.services-title {
+    height: 743px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    padding-top: 78px;
+    margin-bottom: 40px;
+    background: rgba(16, 144, 203, 0.1);
+}
+
+.services-title h2 {
+    display: inline;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.services-title h2 span {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 60px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--maintTextblue);
+}
+
+.services-title p {
+    width: 440px;
+    color: #696969;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.card_parentt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 88px;
+    padding-left: 62px;
+    height: 441px;
+    width: 1203px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 114px 0px #00000017;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+.services-card ::after {
+    position: absolute;
+    content: url(../icon/servicicon.svg);
+    top: -60px;
+    right: 60px;
+}
+
+.card_group {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card_group:first-child {
+    gap: 98px;
+}
+
+.card_group:last-child {
+    gap: 138px;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    gap: 39px;
+}
+
+#img1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 91px;
+    background: #F1E8FF;
+    border-radius: 20px;
+
+}
+
+#inform1 h4 {
+    max-width: 253px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: center;
+    margin-bottom: 8px;
+
+}
+
+#inform1 p {
+    max-width: 323px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #797979;
+}
+
+#img2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 91px;
+    background: #FFF2F2;
+    border-radius: 20px;
+
+}
+
+#inform2 h4 {
+    max-width: 253px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+#inform2 p {
+    max-width: 355px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #797979;
+}
+
+#img3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 91px;
+    background: #E2F3FF;
+    border-radius: 20px;
+
+}
+
+#inform3 h4 {
+    max-width: 253px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+#inform3 p {
+    max-width: 283px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #797979;
+}
+
+#img4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 91px;
+    background: #FFE7FB;
+    border-radius: 20px;
+}
+
+#inform4 h4 {
+    max-width: 253px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 44px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    margin-bottom: 8px;
+
+}
+
+#inform4 p {
+    max-width: 386px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.01em;
+    text-align: left;
+    color: #797979;
+}

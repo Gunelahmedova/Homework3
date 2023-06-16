@@ -1,0 +1,10 @@
+/* Succlent angle 2 */
+
+position: absolute;
+width: 92.19px;
+height: 92.19px;
+left: 1237.88px;
+top: 516px;
+
+background: url(Succlent angle);
+transform: rotate(54.31deg);
