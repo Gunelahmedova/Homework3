@@ -657,6 +657,7 @@ h1 {
 }
 
 #footer-about p {
+    min-width: 76px;
     font-size: 17px;
     font-weight: 500;
     line-height: 26px;
