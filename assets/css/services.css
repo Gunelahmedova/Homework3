@@ -312,19 +312,26 @@ main {}
 
 }
 
+
 .luck ::before {
     position: absolute;
     content: url(../icon/luck.svg);
     bottom: -50px;
     left: 25%;
 }
-
+.luck ::after{
+    position: absolute;
+    content: url(../icon/vector.svg);
+    top: -30%;
+    right: 22%;
+}
 .luck ::after {
     position: absolute;
     content: url(../icon/bell.svg);
     top: -20%;
-    right: 12%;
+    right: 8%;
 }
+
 
 .luck div p:first-child {
     color: var(--mainGrayLight);
